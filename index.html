@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Newsletter for devChallenges.io" content="This is a form to subscribe to the devChallenges.io newsletter page."/>
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Join Our Newsletter | devChallenges.io</title>
+
+    <style>
+
+      .header{
+        font-weight: 700;
+        margin-top: -15px;
+        font-size: x-large;
+      }
+      
+
+      .container{
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        text-align:center;
+        width:  590px;
+        
+      }
+      .card{
+        box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 530px;
+        padding: 10px;
+      }
+      
+      .submit input{
+        background-color: rgb(0, 0, 255, 0.8);
+        color: white;
+        font-size: large;
+      }
+
+      .submit{
+        margin-top: 6px;
+      }
+      .in input{
+        font-size: large;
+      } 
+
+      .card input{
+        margin-top: 15px;
+        height: 60px;
+        border-radius: 15px;
+        text-align: center;
+        border:1px solid #e5e7eb;
+        width: 510px;
+        
+      }
+      .text{
+        text-align: center;
+        color:grey;
+        font-size: large;
+      }
+      .author-info {
+        font-size: 14px;
+        margin-top: 16px;
+        color:rgb(90, 90, 90);
+      }
+      .card p{
+        font-size: medium;
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 480px) {
+        .container{
+          width: 450px;
+          
+        }
+        .card{
+          width: 450px;
+        }
+        .card input{
+          width: 400px;
+        }    
+        
+      }
+      
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo"><img src="/resources/logo.svg" alt="logo"></div>
+    
+      <div class="header"><h1>Join our newsletter</h1></div>
+  
+      <div class="text"><p>Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.</p></div>
+      <div class="card">
+        <form action="https://www.devChallenges.io/newsletter" method="post">
+          <div class="in"><input type="email" placeholder="Enter your email address" id="email" name="email" required/></div>
+
+          <div class="submit"><input type="submit" value="Subscribe now"/></div>
+          
+          <div class="text"><p>Your email is 100% confidential and won’t send you any spam.</p></div>
+        </form>
+      </div>
+      
+      <footer>
+      <div class="author-info">
+        Coded by <a href="https://github.com/vyrnix-ptots" target="_blank">vyrnix-ptots</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>
